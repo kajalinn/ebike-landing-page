@@ -1,0 +1,83 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.description-wrapper {
+    width: 100%;
+    min-height: 90vh;
+}
+
+.description-container {
+    width: 100%;
+    height: 60vh;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-basis: content;
+}
+.description-title{
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 106px;
+}
+.main-title{
+    font-size: 48px;
+}
+.sec-title{
+    font-size: 42px;
+    color: green;
+    margin-bottom: 20px;
+}
+
+.description-title p{
+    font-size: 24px;
+}
+
+
+.description-content ul{
+    text-align: center;
+    width: 500px;
+    list-style-type: none;
+}
+
+.description-content ol li{
+    font-size: 20px;
+}
+
+.description-badge{
+    width: 76px;
+    height: 76px;
+    border-radius: 45px;
+    color: black;
+    background-color: #FBC646;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.description-badge{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+}
+
+.description-text{
+    width: 300px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+
+.badge-mark{
+    display: flex;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.description-step{
+    display: contents;
+
+}
+

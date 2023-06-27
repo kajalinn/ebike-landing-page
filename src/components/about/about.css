@@ -1,0 +1,37 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.about-wrapper {
+    width: 100%;
+    background-color: #FBC646;
+}
+
+.about-container {
+    width: 1440px;
+    height: 700px;
+    margin: 0 auto;
+    /*border: 2px solid black;*/
+    display: flex;
+    align-items: center;
+}
+.about-content{
+    text-align-last: center;
+    font-size: 56px;
+    margin-bottom: 50px;
+}
+
+.about-things ul li{
+    display: flex;
+    list-style-type: none;
+    font-family: monospace;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.about-things ul li span{
+    margin-right: 28px;
+}
+
