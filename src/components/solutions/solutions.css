@@ -101,7 +101,10 @@ html {
 .solution-price-variants ul{
     display: flex;
     justify-content: space-evenly;
-    min-height: 8vh;
+    align-items: center;
+    height: 10vh;
+    margin: 0;
+    padding: 0;
 }
 
 .solution-price-title{
@@ -126,8 +129,7 @@ html {
 
 .bicycle-include b{
     display: flex;
-    justify-content: center;
-    /*margin-bottom: 8px;*/
+    justify-content: flex-start;
 }
 
 .bicycle-additions{
@@ -143,4 +145,8 @@ html {
 }
 .solution-advantages-items ul{
     padding-top: 30px;
+}
+
+.solution-price-variants{
+
 }

@@ -13,23 +13,23 @@ const About = () => {
                     <ul>
                         <li>
                             <span><img src={VectorIcon} alt="Engine icon" width="40" height="40"/></span>
-                            <p>3 years working experience</p>
+                            <h6>3 years working experience</h6>
                         </li>
                         <li>
                             <span><img src={VectorIcon} alt="Engine icon" width="40" height="40"/></span>
-                            <p>Friendly and communicative staff</p>
+                            <h6>Friendly and communicative staff</h6>
                         </li>
                         <li>
                             <span><img src={VectorIcon} alt="Engine icon" width="40" height="40"/></span>
-                            <p>We pick the best option right for you</p>
+                            <h6>We pick the best option right for you</h6>
                         </li>
                         <li>
                             <span><img src={VectorIcon} alt="Engine icon" width="40" height="40"/></span>
-                            <p>Also providing e-bikes for rent!</p>
+                            <h6>Also providing e-bikes for rent!</h6>
                         </li>
                         <li>
                             <span><img src={VectorIcon} alt="Engine icon" width="40" height="40"/></span>
-                            <p>#1 on building e-bikes in Tallinn</p>
+                            <h6>#1 on building e-bikes in Tallinn</h6>
                         </li>
                     </ul>
                 </div>

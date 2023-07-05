@@ -14,35 +14,35 @@ const Description = () => {
                             <li className="badge-mark">
                                 <div className="description-step">
                                     <div className="description-badge">
-                                        <b>1</b>
+                                        <p>1</p>
                                     </div>
                                     <div className="description-text">
-                                        Investigate solutions
+                                        Send us application.
                                     </div>
                                 </div>
                             </li>
                             <li className="badge-mark">
                                 <div className="description-badge">
-                                    <b>2</b>
+                                    <p>2</p>
                                 </div>
                                 <div className="description-text">
-                                    Investigate solutions
+                                    We contact you to understand your needs and discuss your order.
                                 </div>
                             </li>
                             <li className="badge-mark">
                                 <div className="description-badge">
-                                    <b>3</b>
+                                    <p>3</p>
                                 </div>
                                 <div className="description-text">
-                                    Investigate solutions
+                                    We make e-bike by your wishes.
                                 </div>
                             </li>
                             <li className="badge-mark">
                                 <div className="description-badge">
-                                    <b>4</b>
+                                    <p>4</p>
                                 </div>
                                 <div className="description-text">
-                                    Investigate solutions
+                                    Enjoy your electric bicycle!
                                 </div>
                             </li>
                         </ul>

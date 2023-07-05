@@ -23,11 +23,14 @@ html {
     margin-bottom: 50px;
 }
 
+.about-things ul li h6{
+    font-family: monospace;
+    font-size: 24px;
+}
+
 .about-things ul li{
     display: flex;
     list-style-type: none;
-    font-family: monospace;
-    font-size: 24px;
     margin-bottom: 12px;
 }
 

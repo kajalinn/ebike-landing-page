@@ -20,11 +20,11 @@ const ThirdSolution = () => {
                     <div className="solution-parameters">
                         <ul>
                             <li>
-                                <span><img src={EngineIcon} alt="Engine icon" width="32" height="32"/></span>
+                                <span><img src={EngineIcon} alt="Engine icon" width="28" height="28"/></span>
                                 <b>36V 250-500W MOTOR</b>
                             </li>
                             <li>
-                                <span><img src={BatteryIcon} alt="Engine icon" width="32" height="32"/></span>
+                                <span><img src={BatteryIcon} alt="Engine icon" width="28" height="28"/></span>
                                 <b>36V 13ah BATTERY + key`s</b>
                             </li>
                             <li>

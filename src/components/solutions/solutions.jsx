@@ -2,6 +2,10 @@ import React, {useState} from 'react';
 import First from './FirstSolution'
 import Second from './SecondSolution'
 import Third from './ThirdSolution'
+import RightArrow from '../../assets/right-arrow.svg'
+import LeftArrow from '../../assets/left-arrow.svg'
+import MessageIcon from "../../assets/message-circle.svg";
+// import LeftArrow from "../icons/LeftArrow";
 
 const Solutions = () => {
 
@@ -24,11 +28,12 @@ const Solutions = () => {
     return (
         <div className="solution-wrapper">
             <div className="solution-panel">
-                <button className="solution-button" onClick={handlePrev}>Prev</button>
+                <button className="solution-button" onClick={handlePrev}>
+                    <img src={LeftArrow} alt="Engine icon" width="24" height="24"/>
+                </button>
                 <span><b className="solution-title">SOLUTIONS</b></span>
                 <button className="solution-button" onClick={handleNext}>
-                    Next
-
+                    <img src={RightArrow}  alt="Engine icon" width="24" height="24"/>
                 </button>
             </div>
                 <div className="solution-container">

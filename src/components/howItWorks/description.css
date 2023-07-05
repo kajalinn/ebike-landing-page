@@ -11,7 +11,6 @@ html {
 
 .description-container {
     width: 100%;
-    height: 60vh;
     margin: 0 auto;
     display: grid;
     justify-content: center;
@@ -21,31 +20,18 @@ html {
 .description-title{
     text-align: center;
     margin-top: 24px;
-    margin-bottom: 106px;
+    margin-bottom: 80px;
 }
 .main-title{
     font-size: 48px;
 }
-.sec-title{
-    font-size: 42px;
-    color: green;
-    margin-bottom: 20px;
-}
-
-.description-title p{
-    font-size: 24px;
-}
-
-
 .description-content ul{
     text-align: center;
-    width: 500px;
+    width: 1100px;
     list-style-type: none;
+    padding-left: 250px;
 }
 
-.description-content ol li{
-    font-size: 20px;
-}
 
 .description-badge{
     width: 76px;
@@ -53,7 +39,8 @@ html {
     border-radius: 45px;
     color: black;
     background-color: #FBC646;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    /*box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;*/
+    box-shadow: 2px 2px 6px rgba(0,0,0,.5);
 }
 
 .description-badge{
@@ -61,14 +48,20 @@ html {
     align-items: center;
     justify-content: center;
     font-size: 36px;
+    /*text-shadow: 2px 2px 4px #000000;*/
 }
 
+.description-badge p{
+    margin: 0;
+}
+
+
 .description-text{
-    width: 300px;
+    /*width: 300px;*/
+    margin-left: 50px;
     font-size: 24px;
     font-weight: normal;
 }
-
 
 .badge-mark{
     display: flex;

@@ -20,11 +20,11 @@ const SecondSolution = () => {
                     <div className="solution-parameters">
                         <ul>
                             <li>
-                                <span><img src={EngineIcon} alt="Engine icon" width="32" height="32"/></span>
+                                <span><img src={EngineIcon} alt="Engine icon" width="28" height="28"/></span>
                                 <b>36V 250-500W MOTOR</b>
                             </li>
                             <li>
-                                <span><img src={BatteryIcon} alt="Engine icon" width="32" height="32"/></span>
+                                <span><img src={BatteryIcon} alt="Engine icon" width="28" height="28"/></span>
                                 <b>36V 13ah BATTERY + key`s</b>
                             </li>
                             <li>
@@ -38,10 +38,10 @@ const SecondSolution = () => {
                     <div className="bicycle-include">
                         <b>Also included</b>
                         <ul>
-                            <li>SCREEN</li>
-                            <li>THROTTLE</li>
-                            <li>PEDAL-ASSIST</li>
-                            <li>2A CHARGER</li>
+                            <li>Screen</li>
+                            <li>Throttle</li>
+                            <li>Pedal-assist</li>
+                            <li>2A charger</li>
                         </ul>
                     </div>
                 </div>
@@ -50,11 +50,12 @@ const SecondSolution = () => {
                         <b>Also can be installed</b>
                     </div>
                     <ul>
-                        <li>SIGNAL ALARM</li>
-                        <li>GPS TRACKER</li>
-                        <li>VARIOUS HANDLEBAR</li>
-                        <li>MODIFIED BATTERY</li>
-                        <li>EXTRA BATTERY <br/> AND ETC.</li>
+                        <li>Signal alarm</li>
+                        <li>GPS tracker</li>
+                        <li>Various handlebar</li>
+                        <li>Modified battery</li>
+                        <li>Extra battery</li>
+                        <li>Battery case</li>
                     </ul>
                 </div>
                 <div className="solution-advantages">
@@ -64,7 +65,7 @@ const SecondSolution = () => {
                     <div className="solution-advantages-items">
                         <ul>
                             <li>Speed [30-35KMH]</li>
-                            <li>Distance up to 60km on one charge</li>
+                            <li>One charge up to 60km</li>
                         </ul>
                     </div>
                 </div>

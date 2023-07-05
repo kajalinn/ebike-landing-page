@@ -3,7 +3,7 @@ import styles from './greetingWall.css'
 import Logo from '../../assets/ELPUNKTLOGO.svg'
 import bgImg from '../../assets/WALLBG.svg'
 import {useEffect} from "react";
-import NavBar from "../navbar/navbar";
+import NavBar from "../navbar/navbar"
 
 
 const GreetingWall = () => {

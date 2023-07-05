@@ -53,8 +53,8 @@ html {
 
 .form-radio{
     display: flex;
-    margin-top: 30px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #radioButton{
